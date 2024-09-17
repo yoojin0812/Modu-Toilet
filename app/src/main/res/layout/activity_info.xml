@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="19dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bc"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="정보 수정 제안 방법"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"
+            android:textColor="#020715"
+            android:textSize="25dp"
+            />
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#9AC7F8"
+            android:textColor="#020715"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/insa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "여러분과 함께 '모두의 화장실'을 더 나은 어플로 \n발전시키기 위해 소중한 의견을 기다리고 있습니다. \n아래는 몇 가지 도움이 될 만한 제안 예시입니다."
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "여러분의 유용한 제안을 기다리며, 더 좋은 서비스로 보답하겠습니다."
+            android:textSize="12dp"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/TargetText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* 검색 결과 정확성에 대한 제안:"
+            android:textSize="15dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            />
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "어플의 검색 결과가 정확한가요? 만약 정확하지 않다면\n어떤 정보가 잘못되었는지 알려주세요."
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/TargetText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* 화장실 시설 및 장비에 대한 제안:"
+            android:textSize="15dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "화장실에 대한 추가적인 편의 시설이나 장비가 있다면 알려주세요. 장애인이나 유아용 시설에 대한 정보가 부족하다면 추가 정보를 제공해주실 수 있나요?"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            />
+
+        <TextView
+            android:id="@+id/TargetText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* 사용자 경험 및 편리성에 대한 제안:"
+            android:textSize="15dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            />
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "다른 유용한 기능을 추가하거나 개선하면 좋을 것 같아요."
+            android:textSize="15dp"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/TargetText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n제안하기"
+            android:textSize="17dp"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "모두가 편리하게 이용할 수 있는 '모두의 화장실'을 만들 수 있습니다. 아래의 이메일로 의견을 전해주시면 감사하겠습니다."
+            android:fontFamily="@font/bc"
+            android:textSize="15dp"
+            android:textColor="#020715"
+            android:layout_marginBottom="13dp"
+            />
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "* 이메일 주소: support@example.com \n* 지원 시간 안내: [평일 9:00-18:00]"
+            android:fontFamily="@font/bc"
+            android:textSize="15dp"
+            android:textColor="#020715"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "\n\n'모두의 화장실'은 제안해 주신 내용을 신속하게 검토하여 처리하고 좋은 서비스를 제공하기 위해 노력하겠습니다.\n\n소중한 의견을 보내주셔서 감사합니다."
+            android:fontFamily="@font/bc"
+            android:textSize="15dp"
+            android:textColor="#020715"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

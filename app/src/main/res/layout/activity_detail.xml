@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="마커 이미지"
+        android:src="@drawable/icon_qa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/detailShareButton"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/remove_location"
+            android:fontFamily="@font/bc" />
+
+        <Button
+            android:id="@+id/navigateButton"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/remove_find"
+            android:fontFamily="@font/bc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/restroom_icon" />
+
+        <TextView
+            android:id="@+id/detailTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bc"
+            android:textColor="#020715"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:src="@drawable/location_icon" />
+
+        <TextView
+            android:id="@+id/detailDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/bc"
+            android:text="마커 설명"
+            android:textColor="#020715"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:src="@drawable/cc_icon" />
+
+        <TextView
+            android:id="@+id/detailAdditionalInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/bc"
+            android:text="상세설명"
+            android:textColor="#020715"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="244dp"
+            android:layout_height="54dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/starplus"
+            />
+
+        <ImageButton
+            android:id="@+id/infoButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="244dp"
+            android:layout_height="54dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/information_change"
+            />
+    </LinearLayout>
+</LinearLayout>
